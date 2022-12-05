@@ -51,6 +51,4 @@ for l in lines:
     [stack[to_stack].insert(0,e) for e in crane_carry]
     # stack[to_stack].insert(0, crane_carry)
     
-print(stack)
-for i in range(0,len(stack)):
-    print(stack[i][0])
+print("".join([e[0] for e in stack]))
